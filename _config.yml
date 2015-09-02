@@ -9,10 +9,10 @@ markdown: kramdown
 kramdown:  
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-highlighter: rouge
+#highlighter: rouge
 permalink: /:short_year/:title
 timezone: Asia/Shanghai
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+#excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 post:
   template: _post.txt
