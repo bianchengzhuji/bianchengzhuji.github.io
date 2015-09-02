@@ -10,8 +10,8 @@ kramdown:
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
-permalink: /articles/:short_year/:title
-timezone: America/New_York
+permalink: /:short_year/:title
+timezone: Asia/Shanghai
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 post:
@@ -20,11 +20,6 @@ post:
 page:
   template: _page.txt
   extension: md
-editor: gvim
+editor: vim
 git:
   branch: master
-transfer:
-  command: rsync
-  settings: -av
-  source: _site/
-  destination: ~/Git/clayh53.github.com/
